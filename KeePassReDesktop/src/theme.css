@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Fixel-Regular';
+  src: url('./assets/fonts/FixelText/FixelText-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Fixel-SemiBold';
+  src: url('./assets/fonts/FixelText/FixelText-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'Fixel-Italic';
+  src: url('./assets/fonts/FixelText/FixelText-RegularItalic.otf');
+}
+
+@font-face {
+  font-family: 'Fixel-SemiBoldItalic';
+  src: url('./assets/fonts/FixelText/FixelText-SemiBoldItalic.otf');
+}
+
+:root {
+  --primary-color: #1D1D1D;
+  --secondary-color: #F1FAEE;
+
+  --red-color: #E63946;
+  --green-color: #2A9D8F;
+  --blue-color: #457B9D;
+  --light-blue-color: #A8DADC;
+  --yellow-color: #F4A261;
+
+  --primary-font: 'Fixel-Regular';
+  --bold-font: 'Fixel-SemiBold';
+  --italic-font: 'Fixel-Italic';
+  --bold-italic-font: 'Fixel-SemiBoldItalic';
+}
+
+* {
+  font-family: 'Fixel-Regular', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.horizontal-resizable { resize: horizontal; overflow: auto; }
