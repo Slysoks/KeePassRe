@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Fixel-Regular';
+  src: url('./assets/fonts/FixelText/FixelText-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Fixel-SemiBold';
+  src: url('./assets/fonts/FixelText/FixelText-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'Fixel-Italic';
+  src: url('./assets/fonts/FixelText/FixelText-RegularItalic.otf');
+}
+
+@font-face {
+  font-family: 'Fixel-SemiBoldItalic';
+  src: url('./assets/fonts/FixelText/FixelText-SemiBoldItalic.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fixel-Regular', sans-serif;
+}
