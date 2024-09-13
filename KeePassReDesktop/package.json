@@ -1,0 +1,23 @@
+{
+  "name": "keepassredesktop",
+  "version": "1.0.0",
+  "description": "A new keepass generation",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slysoks/KeePassRe.git"
+  },
+  "author": "Slysoks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Slysoks/KeePassRe/issues"
+  },
+  "homepage": "https://github.com/Slysoks/KeePassRe#readme",
+  "devDependencies": {
+    "electron": "^32.1.0"
+  }
+}
